@@ -1,6 +1,6 @@
 {
   "name": "slack-message-deploy-action",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A GitHub action to notify a deployment on Slack",
   "main": "index.js",
   "repository": "git@github.com:bloodyowl/slack-message-deploy-action.git",
