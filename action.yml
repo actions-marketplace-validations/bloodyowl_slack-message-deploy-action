@@ -1,0 +1,21 @@
+name: "Slack deploy message"
+description: "A GitHub Action to push a slack webhook"
+branding:
+  icon: "message-circle"
+  color: "gray-dark"
+inputs:
+  version:
+    description: "The version you're releasing (e.g. v1.0.1, 1.0.1)"
+    required: true
+  env:
+    description: "The deploy environment"
+    required: true
+  slack_webhook_url:
+    description: "Your slack webhook URL"
+    required: true
+  token:
+    description: "GITHUB_TOKEN"
+    required: true
+runs:
+  using: "node16"
+  main: "index.js"

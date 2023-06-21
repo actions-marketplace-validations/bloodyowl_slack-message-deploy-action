@@ -1,0 +1,15 @@
+{
+  "name": "slack-message-deploy-action",
+  "version": "0.0.0",
+  "description": "A GitHub action to notify a deployment on Slack",
+  "main": "index.js",
+  "repository": "git@github.com:bloodyowl/slack-message-deploy-action.git",
+  "author": "Matthias Le Brun <bloodyowl@icloud.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.0",
+    "@slack/webhook": "^6.0.0"
+  }
+}
